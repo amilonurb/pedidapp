@@ -1,4 +1,4 @@
-angular.module('starter').service('produtosService', function($http, $q) {
+angular.module('starter').service('ProdutosService', function($http, $q) {
     var url = 'http://cozinhapp.sergiolopes.org/produtos';
     return {
         lista: function() {
